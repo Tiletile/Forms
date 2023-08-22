@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> assessment </title>
+    <style>
+        label{
+            width: 500px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+     <header> FORMS ASSESSMENT</header>
+
+     <div id="form">
+        <form action="">
+
+            <fieldset>
+                <legend> Your Address </legend>
+                <div><label for="fname" > First Name:</label>
+                    <input type="text" id="fname" required> </div> <br>
+            
+                    <div><label for="lname" > Last Name:</label>
+                    <input type="text" id="lname" required> </div> <br>
+            
+                    <div><label for="street" > Street: </label>
+                    <input type="text" id="street" required> </div> <br>
+            
+                    <div><label for="city"> City: </label>
+                    <input type="text" id="city" required> </div> <br>
+            
+            </fieldset>
+            
+            <fieldset> 
+                <legend> Additional Details </legend>
+            
+                <div>
+                    <label for="bio"> Biography </label> 
+                    <textarea name="Biography" id="bio" cols="" rows="" ></textarea>
+                </div> <br> 
+                    
+                    
+                         <div><label for="file"> Image</label>
+                        <input type="file" id="file" required> </div> <br>
+                
+                        <div><label for="age"> Age group</label>
+                            <input type="number" placeholder="0 to 9 years" id="age" > </div> <br> <br>
+            
+            </fieldset>
+            
+            
+            <fieldset>
+                <legend>Interests </legend>
+            
+                <div>
+            <label for="Hobbies"> Hobbies </label>
+            <select name="hobbies" id="hobbies" multiple>
+                <option value="playing soccer"> Playing soccer</option>
+                <option value="dancing"> Dancing </option>
+                <option value="gardening"> Gardening</option>
+                <option value="watching movies"> Watching movies</option>
+                <option value="swimming"> swimming</option>
+                <option value="skating"> skating</option>
+            </select>
+                </div> <br>
+            
+                <div> 
+                    <label for="favorite car" tabindex="3"> Favorite car? </label>
+                    <select name="favorite car" id=" favorite car" >
+                        <option value="volvo"> Volvo</option>
+                        <option value="Toyota"> Toyota</option>
+                        <option value="Lexus"> Lexus </option>
+                        <option value="Benz"> Benz </option>
+                    </select>
+                </div> <br> 
+            
+                <div>
+                    <label for="favorite public transport"> Favorite Public Transport </label>
+                    <select name="favorite public transport" id="favorite public transport" multiple>
+                        <option value="ground"> ground</option>
+                        <option value="train"> train </option>
+                        <option value="bus"> bus</option>
+                        <option value="water"> water </option>
+                        <option value="air"> Air</option>
+                    </select>
+                        </div> <br>
+            
+            </fieldset>
+            
+                 </form>
+
+
+
+     </div>
+     
+</body>
+</html>
