@@ -1,5 +1,5 @@
-# FORM
-FORM is an office tool work. it is a document that stores information of a user on a web server using interactive controls and also used to collect record and communication of required informaton according to expectation
+# FORMS
+FORMS is an office tool work. it is a document that stores information of a user on a web server using interactive controls and also used to collect record and communication of required informaton according to expectation
 
 This form contains different element such as:
 - First Name
